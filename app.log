@@ -1,0 +1,941 @@
+2023-01-20 08:44:56.439  WARN 13820 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9h30m48s987ms773µs500ns).
+2023-01-20 09:04:35.222  INFO 3688 --- [main] c.c.E.EmailServiceApplication            : Starting EmailServiceApplication using Java 17.0.4.1 on CSI-DEvops with PID 3688 (D:\Project\EmailService\target\classes started by Support in D:\Project\EmailService)
+2023-01-20 09:04:35.227  INFO 3688 --- [main] c.c.E.EmailServiceApplication            : No active profile set, falling back to default profiles: default
+2023-01-20 09:04:36.930  INFO 3688 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-20 09:04:36.931  INFO 3688 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-01-20 09:04:37.080  INFO 3688 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-20 09:04:37.232  INFO 3688 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-20 09:04:37.751  INFO 3688 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-20 09:04:38.058  INFO 3688 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-20 09:04:38.182  INFO 3688 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2023-01-20 09:04:38.431  INFO 3688 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-20 09:04:38.594  INFO 3688 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-01-20 09:04:39.411  INFO 3688 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-20 09:04:40.808  INFO 3688 --- [main] c.c.E.EmailServiceApplication            : Started EmailServiceApplication in 6.23 seconds (JVM running for 7.551)
+2023-01-20 09:11:26.768  INFO 3688 --- [RMI TCP Connection(15)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-20 09:11:26.786  INFO 3688 --- [RMI TCP Connection(15)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-20 09:11:29.786  INFO 12700 --- [main] c.c.E.EmailServiceApplication            : Starting EmailServiceApplication using Java 17.0.4.1 on CSI-DEvops with PID 12700 (D:\Project\EmailService\target\classes started by Support in D:\Project\EmailService)
+2023-01-20 09:11:29.792  INFO 12700 --- [main] c.c.E.EmailServiceApplication            : No active profile set, falling back to default profiles: default
+2023-01-20 09:11:31.560  INFO 12700 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-20 09:11:31.560  INFO 12700 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-01-20 09:11:31.709  INFO 12700 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-20 09:11:31.856  INFO 12700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-20 09:11:32.430  INFO 12700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-20 09:11:32.882  INFO 12700 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-20 09:11:32.983  INFO 12700 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2023-01-20 09:11:33.224  INFO 12700 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-20 09:11:33.387  INFO 12700 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-01-20 09:11:34.189  INFO 12700 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-20 09:11:34.275  INFO 12700 --- [main] c.c.E.batch.config.BatchConfiguration    : select * from notification_email_task where status=0
+2023-01-20 09:11:35.534  INFO 12700 --- [main] c.c.E.EmailServiceApplication            : Started EmailServiceApplication in 6.384 seconds (JVM running for 7.571)
+2023-01-20 09:12:52.581  INFO 12700 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-20 09:12:52.594  INFO 12700 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-20 09:12:55.579  INFO 13300 --- [main] c.c.E.EmailServiceApplication            : Starting EmailServiceApplication using Java 17.0.4.1 on CSI-DEvops with PID 13300 (D:\Project\EmailService\target\classes started by Support in D:\Project\EmailService)
+2023-01-20 09:12:55.583  INFO 13300 --- [main] c.c.E.EmailServiceApplication            : No active profile set, falling back to default profiles: default
+2023-01-20 09:12:57.312  INFO 13300 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-20 09:12:57.313  INFO 13300 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-01-20 09:12:57.480  INFO 13300 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-20 09:12:57.625  INFO 13300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-20 09:12:58.134  INFO 13300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-20 09:12:58.414  INFO 13300 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-20 09:12:58.549  INFO 13300 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2023-01-20 09:12:58.789  INFO 13300 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-20 09:12:58.952  INFO 13300 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-01-20 09:12:59.732  INFO 13300 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-20 09:12:59.814  INFO 13300 --- [main] c.c.E.batch.config.BatchConfiguration    : select * from notification_email_task where status=0
+2023-01-20 09:13:00.933  INFO 13300 --- [main] c.c.E.EmailServiceApplication            : Started EmailServiceApplication in 6.007 seconds (JVM running for 7.133)
+2023-01-20 09:13:21.332  INFO 13300 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : org.springframework.batch.core.launch.support.SimpleJobLauncher@2f230eb0
+2023-01-20 09:13:40.644  INFO 13300 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : org.springframework.batch.core.launch.support.SimpleJobLauncher@2f230eb0
+2023-01-20 09:14:00.507  INFO 13300 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : org.springframework.batch.core.launch.support.SimpleJobLauncher@2f230eb0
+2023-01-20 09:14:20.809  INFO 13300 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : org.springframework.batch.core.launch.support.SimpleJobLauncher@2f230eb0
+2023-01-20 09:14:40.555  INFO 13300 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : org.springframework.batch.core.launch.support.SimpleJobLauncher@2f230eb0
+2023-01-20 09:15:00.494  INFO 13300 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : org.springframework.batch.core.launch.support.SimpleJobLauncher@2f230eb0
+2023-01-20 09:15:20.360  INFO 13300 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : processor: EmailTask(ID=2, CREATED=2023-01-18, CREATED_BY=LS, SERVICE_REQUEST_ID=4321, STATUS=0, SENT_TIMESTAMP=2023-01-18, LAST_TRIED_TIMESTAMP=2023-01-18, EMAIL_ERROR_IF_ANY=null, EMAIL_CONTENT=Lakhan.sharma0811@gmail.com)
+2023-01-20 09:15:24.947  INFO 13300 --- [scheduling-1] c.c.E.batch.writer.EmailWriter           : item writer: EmailTask(ID=2, CREATED=2023-01-18, CREATED_BY=LS, SERVICE_REQUEST_ID=4321, STATUS=1, SENT_TIMESTAMP=2023-01-18, LAST_TRIED_TIMESTAMP=2023-01-18, EMAIL_ERROR_IF_ANY=null, EMAIL_CONTENT=Lakhan.sharma0811@gmail.com)
+2023-01-20 09:15:25.337  INFO 13300 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : org.springframework.batch.core.launch.support.SimpleJobLauncher@2f230eb0
+2023-01-20 09:15:40.412  INFO 13300 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : org.springframework.batch.core.launch.support.SimpleJobLauncher@2f230eb0
+2023-01-20 09:16:00.577  INFO 13300 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : org.springframework.batch.core.launch.support.SimpleJobLauncher@2f230eb0
+2023-01-20 09:16:20.772  INFO 13300 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : org.springframework.batch.core.launch.support.SimpleJobLauncher@2f230eb0
+2023-01-20 09:16:40.824  INFO 13300 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : org.springframework.batch.core.launch.support.SimpleJobLauncher@2f230eb0
+2023-01-20 09:17:00.499  INFO 13300 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : org.springframework.batch.core.launch.support.SimpleJobLauncher@2f230eb0
+2023-01-20 09:17:20.548  INFO 13300 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : org.springframework.batch.core.launch.support.SimpleJobLauncher@2f230eb0
+2023-01-20 09:17:40.706  INFO 13300 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : org.springframework.batch.core.launch.support.SimpleJobLauncher@2f230eb0
+2023-01-20 09:18:00.711  INFO 13300 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : org.springframework.batch.core.launch.support.SimpleJobLauncher@2f230eb0
+2023-01-20 09:18:20.846  INFO 13300 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : org.springframework.batch.core.launch.support.SimpleJobLauncher@2f230eb0
+2023-01-20 09:18:40.519  INFO 13300 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : org.springframework.batch.core.launch.support.SimpleJobLauncher@2f230eb0
+2023-01-20 09:18:51.932  INFO 13300 --- [RMI TCP Connection(15)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-20 09:18:51.944  INFO 13300 --- [RMI TCP Connection(15)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-20 09:18:55.302  INFO 15040 --- [main] c.c.E.EmailServiceApplication            : Starting EmailServiceApplication using Java 17.0.4.1 on CSI-DEvops with PID 15040 (D:\Project\EmailService\target\classes started by Support in D:\Project\EmailService)
+2023-01-20 09:18:55.306  INFO 15040 --- [main] c.c.E.EmailServiceApplication            : No active profile set, falling back to default profiles: default
+2023-01-20 09:18:56.979  INFO 15040 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-20 09:18:56.980  INFO 15040 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-01-20 09:18:57.120  INFO 15040 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-20 09:18:57.270  INFO 15040 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-20 09:18:57.788  INFO 15040 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-20 09:18:58.046  INFO 15040 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-20 09:18:58.190  INFO 15040 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2023-01-20 09:18:58.426  INFO 15040 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-20 09:18:58.581  INFO 15040 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-01-20 09:18:59.391  INFO 15040 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-20 09:18:59.470  INFO 15040 --- [main] c.c.E.batch.config.BatchConfiguration    : select * from notification_email_task where status=0
+2023-01-20 09:19:00.653  INFO 15040 --- [main] c.c.E.EmailServiceApplication            : Started EmailServiceApplication in 5.957 seconds (JVM running for 7.056)
+2023-01-20 09:19:20.708  INFO 15040 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : org.springframework.batch.core.launch.support.SimpleJobLauncher@59d61fef
+2023-01-20 09:19:20.709  INFO 15040 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : SimpleJob: [name=emailSenderJob444260553]
+2023-01-20 09:19:40.802  INFO 15040 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : org.springframework.batch.core.launch.support.SimpleJobLauncher@59d61fef
+2023-01-20 09:19:40.802  INFO 15040 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : SimpleJob: [name=emailSenderJob444260553]
+2023-01-20 09:20:00.732  INFO 15040 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : org.springframework.batch.core.launch.support.SimpleJobLauncher@59d61fef
+2023-01-20 09:20:00.733  INFO 15040 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : SimpleJob: [name=emailSenderJob444260553]
+2023-01-20 09:20:20.851  INFO 15040 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : org.springframework.batch.core.launch.support.SimpleJobLauncher@59d61fef
+2023-01-20 09:20:20.852  INFO 15040 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : SimpleJob: [name=emailSenderJob444260553]
+2023-01-20 09:20:40.480  INFO 15040 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : org.springframework.batch.core.launch.support.SimpleJobLauncher@59d61fef
+2023-01-20 09:20:40.481  INFO 15040 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : SimpleJob: [name=emailSenderJob444260553]
+2023-01-20 09:21:00.591  INFO 15040 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : org.springframework.batch.core.launch.support.SimpleJobLauncher@59d61fef
+2023-01-20 09:21:00.592  INFO 15040 --- [scheduling-1] c.c.E.batch.config.JobScheduler          : SimpleJob: [name=emailSenderJob444260553]
+2023-01-20 09:21:00.608  INFO 15040 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-20 09:21:00.619  INFO 15040 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-20 09:35:06.721  INFO 12512 --- [main] c.c.E.EmailServiceApplication            : Starting EmailServiceApplication using Java 17.0.4.1 on CSI-DEvops with PID 12512 (D:\Project\EmailService\target\classes started by Support in D:\Project\EmailService)
+2023-01-20 09:35:06.725  INFO 12512 --- [main] c.c.E.EmailServiceApplication            : No active profile set, falling back to default profiles: default
+2023-01-20 09:35:08.722  INFO 12512 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-20 09:35:08.722  INFO 12512 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-01-20 09:35:08.860  INFO 12512 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-20 09:35:08.992  INFO 12512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-20 09:35:09.473  INFO 12512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-20 09:35:09.703  INFO 12512 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-20 09:35:09.850  INFO 12512 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2023-01-20 09:35:10.114  INFO 12512 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-20 09:35:10.278  INFO 12512 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-01-20 09:35:11.048  INFO 12512 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-20 09:35:11.125  INFO 12512 --- [main] c.c.E.batch.config.BatchConfiguration    : select * from notification_email_task where status=0
+2023-01-20 09:35:12.235  INFO 12512 --- [main] c.c.E.EmailServiceApplication            : Started EmailServiceApplication in 6.102 seconds (JVM running for 7.08)
+2023-01-20 09:36:00.379  INFO 12512 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : processor: EmailTask(ID=4, CREATED=2023-01-17, CREATED_BY=LS, SERVICE_REQUEST_ID=4321, STATUS=0, SENT_TIMESTAMP=2023-01-18, LAST_TRIED_TIMESTAMP=2023-01-18, EMAIL_ERROR_IF_ANY=null, EMAIL_CONTENT=Lakhan.sharma0811@gmail.com)
+2023-01-20 09:36:05.316  INFO 12512 --- [scheduling-1] c.c.E.batch.writer.EmailWriter           : item writer: EmailTask(ID=4, CREATED=2023-01-17, CREATED_BY=LS, SERVICE_REQUEST_ID=4321, STATUS=1, SENT_TIMESTAMP=2023-01-20, LAST_TRIED_TIMESTAMP=2023-01-18, EMAIL_ERROR_IF_ANY=null, EMAIL_CONTENT=Lakhan.sharma0811@gmail.com)
+2023-01-20 10:06:12.726  INFO 12512 --- [RMI TCP Connection(38)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-20 10:06:12.734  INFO 12512 --- [RMI TCP Connection(38)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-20 10:06:15.408  INFO 10392 --- [main] c.c.E.EmailServiceApplication            : Starting EmailServiceApplication using Java 17.0.4.1 on CSI-DEvops with PID 10392 (D:\Project\EmailService\target\classes started by Support in D:\Project\EmailService)
+2023-01-20 10:06:15.413  INFO 10392 --- [main] c.c.E.EmailServiceApplication            : No active profile set, falling back to default profiles: default
+2023-01-20 10:06:17.054  INFO 10392 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-20 10:06:17.055  INFO 10392 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-01-20 10:06:17.211  INFO 10392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-20 10:06:17.347  INFO 10392 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-20 10:06:17.823  INFO 10392 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-20 10:06:18.087  INFO 10392 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-20 10:06:18.220  INFO 10392 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2023-01-20 10:06:18.444  INFO 10392 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-20 10:06:18.596  INFO 10392 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-01-20 10:06:19.328  INFO 10392 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-20 10:06:19.405  INFO 10392 --- [main] c.c.E.batch.config.BatchConfiguration    : select * from notification_email_task where status=0
+2023-01-20 10:06:20.587  INFO 10392 --- [main] c.c.E.EmailServiceApplication            : Started EmailServiceApplication in 5.767 seconds (JVM running for 6.822)
+2023-01-20 10:07:00.454  INFO 10392 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : processor: EmailTask(ID=5, CREATED=2023-01-15, CREATED_BY=121, SERVICE_REQUEST_ID=121, STATUS=0, SENT_TIMESTAMP=2023-01-18, LAST_TRIED_TIMESTAMP=2023-01-18, EMAIL_ERROR_IF_ANY=asa, EMAIL_CONTENT=lakhan.sharma81@gmail.com)
+2023-01-20 10:07:05.103  INFO 10392 --- [scheduling-1] c.c.E.batch.writer.EmailWriter           : item writer: EmailTask(ID=5, CREATED=2023-01-15, CREATED_BY=121, SERVICE_REQUEST_ID=121, STATUS=1, SENT_TIMESTAMP=2023-01-20, LAST_TRIED_TIMESTAMP=2023-01-18, EMAIL_ERROR_IF_ANY=asa, EMAIL_CONTENT=lakhan.sharma81@gmail.com)
+2023-01-20 13:41:49.253  WARN 10392 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h30s788ms574µs500ns).
+2023-01-20 15:54:11.103  WARN 10392 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h12m58s540ms71µs700ns).
+2023-01-20 15:56:57.981  INFO 10392 --- [RMI TCP Connection(47)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-20 15:56:57.992  INFO 10392 --- [RMI TCP Connection(47)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-20 16:52:51.960  INFO 17532 --- [main] c.c.E.EmailServiceApplication            : Starting EmailServiceApplication using Java 17.0.4.1 on CSI-DEvops with PID 17532 (D:\Project\EmailService\target\classes started by Support in D:\Project\EmailService)
+2023-01-20 16:52:51.964  INFO 17532 --- [main] c.c.E.EmailServiceApplication            : No active profile set, falling back to default profiles: default
+2023-01-20 16:52:54.035  INFO 17532 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-20 16:52:54.036  INFO 17532 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-01-20 16:52:54.173  INFO 17532 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-20 16:52:54.318  INFO 17532 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-20 16:52:54.845  INFO 17532 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-20 16:52:55.198  INFO 17532 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-20 16:52:55.324  INFO 17532 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2023-01-20 16:52:55.551  INFO 17532 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-20 16:52:55.705  INFO 17532 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-01-20 16:52:56.445  INFO 17532 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-20 16:52:56.533  INFO 17532 --- [main] c.c.E.batch.config.BatchConfiguration    : select * from notification_email_task where status=0
+2023-01-20 16:52:57.637  INFO 17532 --- [main] c.c.E.EmailServiceApplication            : Started EmailServiceApplication in 6.315 seconds (JVM running for 7.463)
+2023-01-20 16:52:59.662  INFO 17532 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-20 16:52:59.675  INFO 17532 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-20 16:54:24.485  INFO 6300 --- [main] c.c.E.EmailServiceApplication            : Starting EmailServiceApplication using Java 17.0.4.1 on CSI-DEvops with PID 6300 (D:\Project\EmailService\target\classes started by Support in D:\Project\EmailService)
+2023-01-20 16:54:24.489  INFO 6300 --- [main] c.c.E.EmailServiceApplication            : No active profile set, falling back to default profiles: default
+2023-01-20 16:54:26.175  INFO 6300 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-20 16:54:26.176  INFO 6300 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-01-20 16:54:26.339  INFO 6300 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-20 16:54:26.506  INFO 6300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-20 16:54:27.052  INFO 6300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-20 16:54:27.339  INFO 6300 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-20 16:54:27.439  INFO 6300 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2023-01-20 16:54:27.676  INFO 6300 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-20 16:54:27.826  INFO 6300 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-01-20 16:54:28.590  INFO 6300 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-20 16:54:28.676  INFO 6300 --- [main] c.c.E.batch.config.BatchConfiguration    : select * from notification_email_task where status=0
+2023-01-20 16:54:29.830  INFO 6300 --- [main] c.c.E.EmailServiceApplication            : Started EmailServiceApplication in 5.917 seconds (JVM running for 7.064)
+2023-01-20 16:54:40.764  INFO 6300 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : processor: EmailTask(ID=4, CREATED=2023-01-17, CREATED_BY=LS, SERVICE_REQUEST_ID=4321, STATUS=0, SENT_TIMESTAMP=2023-01-20, LAST_TRIED_TIMESTAMP=2023-01-18, EMAIL_ERROR_IF_ANY=null, EMAIL_CONTENT=Lakhan.sharma0811@gmail.com)
+2023-01-20 16:54:41.072  INFO 6300 --- [scheduling-1] c.c.EmailService.email.EmailServiceImpl  : Sending email: Lakhan.sharma0811@gmail.com with html body: Test mails to ...............
+2023-01-20 16:54:46.154  INFO 6300 --- [scheduling-1] c.c.E.batch.writer.EmailWriter           : item writer: EmailTask(ID=4, CREATED=2023-01-17, CREATED_BY=LS, SERVICE_REQUEST_ID=4321, STATUS=1, SENT_TIMESTAMP=2023-01-20, LAST_TRIED_TIMESTAMP=2023-01-18, EMAIL_ERROR_IF_ANY=EmailText.html, EMAIL_CONTENT=Lakhan.sharma0811@gmail.com)
+2023-01-20 16:57:40.549  INFO 6300 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : processor: EmailTask(ID=5, CREATED=2023-01-15, CREATED_BY=121, SERVICE_REQUEST_ID=121, STATUS=0, SENT_TIMESTAMP=2023-01-20, LAST_TRIED_TIMESTAMP=2023-01-18, EMAIL_ERROR_IF_ANY=asa, EMAIL_CONTENT=lakhan.sharma81@gmail.com)
+2023-01-20 16:57:40.552  INFO 6300 --- [scheduling-1] c.c.EmailService.email.EmailServiceImpl  : Sending email: lakhan.sharma81@gmail.com with html body: Test mails to ...............
+2023-01-20 16:57:44.636  INFO 6300 --- [scheduling-1] c.c.E.batch.writer.EmailWriter           : item writer: EmailTask(ID=5, CREATED=2023-01-15, CREATED_BY=121, SERVICE_REQUEST_ID=121, STATUS=1, SENT_TIMESTAMP=2023-01-20, LAST_TRIED_TIMESTAMP=2023-01-18, EMAIL_ERROR_IF_ANY=EmailText.html, EMAIL_CONTENT=lakhan.sharma81@gmail.com)
+2023-01-20 16:58:25.001  INFO 6300 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-20 16:58:25.031  INFO 6300 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-20 16:58:28.108  INFO 9476 --- [main] c.c.E.EmailServiceApplication            : Starting EmailServiceApplication using Java 17.0.4.1 on CSI-DEvops with PID 9476 (D:\Project\EmailService\target\classes started by Support in D:\Project\EmailService)
+2023-01-20 16:58:28.116  INFO 9476 --- [main] c.c.E.EmailServiceApplication            : No active profile set, falling back to default profiles: default
+2023-01-20 16:58:29.856  INFO 9476 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-20 16:58:29.857  INFO 9476 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-01-20 16:58:29.990  INFO 9476 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-20 16:58:30.179  INFO 9476 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-20 16:58:30.774  INFO 9476 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-20 16:58:31.069  INFO 9476 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-20 16:58:31.243  INFO 9476 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2023-01-20 16:58:31.551  INFO 9476 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-20 16:58:31.738  INFO 9476 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-01-20 16:58:32.647  INFO 9476 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-20 16:58:32.737  INFO 9476 --- [main] c.c.E.batch.config.BatchConfiguration    : select * from notification_email_task where status=0
+2023-01-20 16:58:34.081  INFO 9476 --- [main] c.c.E.EmailServiceApplication            : Started EmailServiceApplication in 6.618 seconds (JVM running for 7.703)
+2023-01-20 16:59:00.355  INFO 9476 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : processor: EmailTask(ID=5, CREATED=2023-01-15, CREATED_BY=121, SERVICE_REQUEST_ID=121, STATUS=0, SENT_TIMESTAMP=2023-01-20, LAST_TRIED_TIMESTAMP=2023-01-18, EMAIL_ERROR_IF_ANY=EmailText.html, EMAIL_CONTENT=lakhan.sharma81@gmail.com)
+2023-01-20 16:59:00.560  INFO 9476 --- [scheduling-1] c.c.EmailService.email.EmailServiceImpl  : Sending email: lakhan.sharma81@gmail.com with html body: Test mails to ...............
+2023-01-20 16:59:06.146  INFO 9476 --- [scheduling-1] c.c.E.batch.writer.EmailWriter           : item writer: EmailTask(ID=5, CREATED=2023-01-15, CREATED_BY=121, SERVICE_REQUEST_ID=121, STATUS=1, SENT_TIMESTAMP=2023-01-20, LAST_TRIED_TIMESTAMP=2023-01-18, EMAIL_ERROR_IF_ANY=EmailText.html, EMAIL_CONTENT=lakhan.sharma81@gmail.com)
+2023-01-20 17:14:19.676  INFO 9476 --- [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-20 17:14:19.685  INFO 9476 --- [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-20 17:14:22.709  INFO 8408 --- [main] c.c.E.EmailServiceApplication            : Starting EmailServiceApplication using Java 17.0.4.1 on CSI-DEvops with PID 8408 (D:\Project\EmailService\target\classes started by Support in D:\Project\EmailService)
+2023-01-20 17:14:22.714  INFO 8408 --- [main] c.c.E.EmailServiceApplication            : No active profile set, falling back to default profiles: default
+2023-01-20 17:14:24.472  INFO 8408 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-20 17:14:24.474  INFO 8408 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-01-20 17:14:24.634  INFO 8408 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-20 17:14:24.789  INFO 8408 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-20 17:14:25.247  INFO 8408 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-20 17:14:25.502  INFO 8408 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-20 17:14:25.633  INFO 8408 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2023-01-20 17:14:25.847  INFO 8408 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-20 17:14:25.994  INFO 8408 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-01-20 17:14:26.702  INFO 8408 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-20 17:14:26.779  INFO 8408 --- [main] c.c.E.batch.config.BatchConfiguration    : select * from notification_email_task where status=0
+2023-01-20 17:14:27.888  INFO 8408 --- [main] c.c.E.EmailServiceApplication            : Started EmailServiceApplication in 5.802 seconds (JVM running for 6.873)
+2023-01-20 17:15:00.435  INFO 8408 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : processor: EmailTask(ID=5, CREATED=2023-01-15, CREATED_BY=121, SERVICE_REQUEST_ID=121, STATUS=0, SENT_TIMESTAMP=2023-01-20, LAST_TRIED_TIMESTAMP=2023-01-18, EMAIL_ERROR_IF_ANY=EmailText.html, EMAIL_CONTENT=lakhan.sharma81@gmail.com)
+2023-01-20 17:15:00.853  INFO 8408 --- [scheduling-1] c.c.EmailService.email.EmailServiceImpl  : Sending email: lakhan.sharma81@gmail.com with html body: Test mails to ...............
+2023-01-20 17:15:04.716  INFO 8408 --- [scheduling-1] c.c.E.batch.writer.EmailWriter           : item writer: EmailTask(ID=5, CREATED=2023-01-15, CREATED_BY=121, SERVICE_REQUEST_ID=121, STATUS=1, SENT_TIMESTAMP=2023-01-20, LAST_TRIED_TIMESTAMP=2023-01-18, EMAIL_ERROR_IF_ANY=EmailText.html, EMAIL_CONTENT=lakhan.sharma81@gmail.com)
+2023-01-20 17:17:46.987  INFO 8408 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-20 17:17:46.995  INFO 8408 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-20 17:17:50.321  INFO 17996 --- [main] c.c.E.EmailServiceApplication            : Starting EmailServiceApplication using Java 17.0.4.1 on CSI-DEvops with PID 17996 (D:\Project\EmailService\target\classes started by Support in D:\Project\EmailService)
+2023-01-20 17:17:50.325  INFO 17996 --- [main] c.c.E.EmailServiceApplication            : No active profile set, falling back to default profiles: default
+2023-01-20 17:17:51.952  INFO 17996 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-20 17:17:51.953  INFO 17996 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-01-20 17:17:52.105  INFO 17996 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-20 17:17:52.238  INFO 17996 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-20 17:17:52.716  INFO 17996 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-20 17:17:52.956  INFO 17996 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-20 17:17:53.087  INFO 17996 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2023-01-20 17:17:53.298  INFO 17996 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-20 17:17:53.445  INFO 17996 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-01-20 17:17:54.140  INFO 17996 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-20 17:17:54.213  INFO 17996 --- [main] c.c.E.batch.config.BatchConfiguration    : select * from notification_email_task where status=0
+2023-01-20 17:17:55.301  INFO 17996 --- [main] c.c.E.EmailServiceApplication            : Started EmailServiceApplication in 5.588 seconds (JVM running for 6.722)
+2023-01-20 17:26:40.426  INFO 17996 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : processor: EmailTask(ID=5, CREATED=2023-01-15, CREATED_BY=121, SERVICE_REQUEST_ID=121, STATUS=0, SENT_TIMESTAMP=2023-01-20, LAST_TRIED_TIMESTAMP=2023-01-18, EMAIL_ERROR_IF_ANY=EmailText.html, EMAIL_CONTENT=lakhan.sharma81@gmail.com)
+2023-01-20 17:26:40.735  INFO 17996 --- [scheduling-1] c.c.EmailService.email.EmailServiceImpl  : Sending email: lakhan.sharma81@gmail.com with html body: Test mails to ...............
+2023-01-20 17:26:45.331  INFO 17996 --- [scheduling-1] c.c.E.batch.writer.EmailWriter           : item writer: EmailTask(ID=5, CREATED=2023-01-15, CREATED_BY=121, SERVICE_REQUEST_ID=121, STATUS=1, SENT_TIMESTAMP=2023-01-20, LAST_TRIED_TIMESTAMP=2023-01-18, EMAIL_ERROR_IF_ANY=EmailText.html, EMAIL_CONTENT=lakhan.sharma81@gmail.com)
+2023-01-20 17:29:20.349  INFO 17996 --- [RMI TCP Connection(20)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-20 17:29:20.362  INFO 17996 --- [RMI TCP Connection(20)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-20 17:29:20.362 ERROR 17996 --- [scheduling-1] o.s.batch.core.job.AbstractJob           : Encountered fatal error executing job
+
+org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:467) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:400) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:595) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:382) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.13.jar:5.3.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy86.update(Unknown Source) ~[na:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor58.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.13.jar:5.3.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy86.update(Unknown Source) ~[na:na]
+	at org.springframework.batch.core.job.AbstractJob.updateStatus(AbstractJob.java:443) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:315) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:149) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:140) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at jdk.internal.reflect.GeneratedMethodAccessor64.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.13.jar:5.3.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy89.run(Unknown Source) ~[na:na]
+	at com.code.EmailService.batch.config.JobScheduler.jobScheduler(JobScheduler.java:41) ~[classes/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor63.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95) ~[spring-context-5.3.13.jar:5.3.13]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.hibernate.internal.SessionFactoryImpl.validateNotClosed(SessionFactoryImpl.java:539) ~[hibernate-core-5.6.1.Final.jar:5.6.1.Final]
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:623) ~[hibernate-core-5.6.1.Final.jar:5.6.1.Final]
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:157) ~[hibernate-core-5.6.1.Final.jar:5.6.1.Final]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.createNativeEntityManager(AbstractEntityManagerFactoryBean.java:585) ~[spring-orm-5.3.13.jar:5.3.13]
+	at jdk.internal.reflect.GeneratedMethodAccessor55.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.invokeProxyMethod(AbstractEntityManagerFactoryBean.java:487) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler.invoke(AbstractEntityManagerFactoryBean.java:734) ~[spring-orm-5.3.13.jar:5.3.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy85.createNativeEntityManager(Unknown Source) ~[na:na]
+	at org.springframework.orm.jpa.JpaTransactionManager.createEntityManagerForTransaction(JpaTransactionManager.java:485) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:410) ~[spring-orm-5.3.13.jar:5.3.13]
+	... 46 common frames omitted
+
+2023-01-20 17:29:20.365 ERROR 17996 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:467) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:400) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:595) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:382) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.13.jar:5.3.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy86.update(Unknown Source) ~[na:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor58.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.13.jar:5.3.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy86.update(Unknown Source) ~[na:na]
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:378) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:149) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:140) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at jdk.internal.reflect.GeneratedMethodAccessor64.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.13.jar:5.3.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy89.run(Unknown Source) ~[na:na]
+	at com.code.EmailService.batch.config.JobScheduler.jobScheduler(JobScheduler.java:41) ~[classes/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor63.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95) ~[spring-context-5.3.13.jar:5.3.13]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.lang.IllegalStateException: EntityManagerFactory is closed
+	at org.hibernate.internal.SessionFactoryImpl.validateNotClosed(SessionFactoryImpl.java:539) ~[hibernate-core-5.6.1.Final.jar:5.6.1.Final]
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:623) ~[hibernate-core-5.6.1.Final.jar:5.6.1.Final]
+	at org.hibernate.internal.SessionFactoryImpl.createEntityManager(SessionFactoryImpl.java:157) ~[hibernate-core-5.6.1.Final.jar:5.6.1.Final]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.createNativeEntityManager(AbstractEntityManagerFactoryBean.java:585) ~[spring-orm-5.3.13.jar:5.3.13]
+	at jdk.internal.reflect.GeneratedMethodAccessor55.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.invokeProxyMethod(AbstractEntityManagerFactoryBean.java:487) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler.invoke(AbstractEntityManagerFactoryBean.java:734) ~[spring-orm-5.3.13.jar:5.3.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy85.createNativeEntityManager(Unknown Source) ~[na:na]
+	at org.springframework.orm.jpa.JpaTransactionManager.createEntityManagerForTransaction(JpaTransactionManager.java:485) ~[spring-orm-5.3.13.jar:5.3.13]
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:410) ~[spring-orm-5.3.13.jar:5.3.13]
+	... 45 common frames omitted
+
+2023-01-20 17:44:26.655  INFO 14948 --- [main] c.c.E.EmailServiceApplication            : Starting EmailServiceApplication using Java 17.0.4.1 on CSI-DEvops with PID 14948 (D:\Project\EmailService\target\classes started by Support in D:\Project\EmailService)
+2023-01-20 17:44:26.658  INFO 14948 --- [main] c.c.E.EmailServiceApplication            : No active profile set, falling back to default profiles: default
+2023-01-20 17:44:28.298  INFO 14948 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-20 17:44:28.299  INFO 14948 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-01-20 17:44:28.430  INFO 14948 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-20 17:44:28.577  INFO 14948 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-20 17:44:29.065  INFO 14948 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-20 17:44:29.345  INFO 14948 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-20 17:44:29.478  INFO 14948 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2023-01-20 17:44:29.696  INFO 14948 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-20 17:44:29.843  INFO 14948 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-01-20 17:44:31.024  INFO 14948 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-20 17:44:31.143  INFO 14948 --- [main] c.c.E.batch.config.BatchConfiguration    : select * from email_notification_task where status=0
+2023-01-20 17:44:32.392  INFO 14948 --- [main] c.c.E.EmailServiceApplication            : Started EmailServiceApplication in 6.34 seconds (JVM running for 7.381)
+2023-01-20 17:47:00.434  INFO 14948 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : processor: EmailTask(ID=1, CREATED=2023-01-19, CREATED_BY=Lakhan, STATUS=0, Email_SENT_TIMESTAMP=2023-01-19, EMAIL_ERROR_IF_ANY=no, EMAIL_CONTENT=aa, Customer_MailID=Lakhan.sharma81@gmail.com)
+2023-01-20 17:47:00.722 ERROR 14948 --- [scheduling-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][scheduling-1] Exception processing template "no": Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at com.code.EmailService.email.EmailServiceImpl.sendSimpleMessage(EmailServiceImpl.java:40) ~[classes/:na]
+	at com.code.EmailService.batch.processor.EmailProcessor.process(EmailProcessor.java:26) ~[classes/:na]
+	at com.code.EmailService.batch.processor.EmailProcessor.process(EmailProcessor.java:1) ~[classes/:na]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.doProcess(SimpleChunkProcessor.java:134) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.transform(SimpleChunkProcessor.java:319) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.process(SimpleChunkProcessor.java:210) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.ChunkOrientedTasklet.execute(ChunkOrientedTasklet.java:77) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:407) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:331) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$2.doInChunkContext(TaskletStep.java:273) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.scope.context.StepContextRepeatCallback.doInIteration(StepContextRepeatCallback.java:82) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:375) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:215) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:145) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:258) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:208) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:152) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.AbstractJob.handleStep(AbstractJob.java:413) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.SimpleJob.doExecute(SimpleJob.java:136) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:320) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:149) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:140) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.13.jar:5.3.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy89.run(Unknown Source) ~[na:na]
+	at com.code.EmailService.batch.config.JobScheduler.jobScheduler(JobScheduler.java:41) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95) ~[spring-context-5.3.13.jar:5.3.13]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-01-20 17:47:00.723  INFO 14948 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : error: Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+2023-01-20 17:47:00.724  INFO 14948 --- [scheduling-1] c.c.E.batch.writer.EmailWriter           : item writer: EmailTask(ID=1, CREATED=2023-01-19, CREATED_BY=Lakhan, STATUS=0, Email_SENT_TIMESTAMP=2023-01-19, EMAIL_ERROR_IF_ANY=no, EMAIL_CONTENT=EmailText.html, Customer_MailID=Lakhan.sharma81@gmail.com)
+2023-01-20 17:47:20.506  INFO 14948 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : processor: EmailTask(ID=1, CREATED=2023-01-19, CREATED_BY=Lakhan, STATUS=0, Email_SENT_TIMESTAMP=2023-01-19, EMAIL_ERROR_IF_ANY=no, EMAIL_CONTENT=EmailText.html, Customer_MailID=Lakhan.sharma81@gmail.com)
+2023-01-20 17:47:20.510 ERROR 14948 --- [scheduling-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][scheduling-1] Exception processing template "no": Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at com.code.EmailService.email.EmailServiceImpl.sendSimpleMessage(EmailServiceImpl.java:40) ~[classes/:na]
+	at com.code.EmailService.batch.processor.EmailProcessor.process(EmailProcessor.java:26) ~[classes/:na]
+	at com.code.EmailService.batch.processor.EmailProcessor.process(EmailProcessor.java:1) ~[classes/:na]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.doProcess(SimpleChunkProcessor.java:134) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.transform(SimpleChunkProcessor.java:319) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.process(SimpleChunkProcessor.java:210) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.ChunkOrientedTasklet.execute(ChunkOrientedTasklet.java:77) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:407) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:331) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$2.doInChunkContext(TaskletStep.java:273) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.scope.context.StepContextRepeatCallback.doInIteration(StepContextRepeatCallback.java:82) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:375) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:215) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:145) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:258) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:208) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:152) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.AbstractJob.handleStep(AbstractJob.java:413) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.SimpleJob.doExecute(SimpleJob.java:136) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:320) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:149) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:140) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.13.jar:5.3.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy89.run(Unknown Source) ~[na:na]
+	at com.code.EmailService.batch.config.JobScheduler.jobScheduler(JobScheduler.java:41) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95) ~[spring-context-5.3.13.jar:5.3.13]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-01-20 17:47:20.513  INFO 14948 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : error: Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+2023-01-20 17:47:20.514  INFO 14948 --- [scheduling-1] c.c.E.batch.writer.EmailWriter           : item writer: EmailTask(ID=1, CREATED=2023-01-19, CREATED_BY=Lakhan, STATUS=0, Email_SENT_TIMESTAMP=2023-01-19, EMAIL_ERROR_IF_ANY=no, EMAIL_CONTENT=EmailText.html, Customer_MailID=Lakhan.sharma81@gmail.com)
+2023-01-20 17:47:40.350  INFO 14948 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : processor: EmailTask(ID=1, CREATED=2023-01-19, CREATED_BY=Lakhan, STATUS=0, Email_SENT_TIMESTAMP=2023-01-19, EMAIL_ERROR_IF_ANY=no, EMAIL_CONTENT=EmailText.html, Customer_MailID=Lakhan.sharma81@gmail.com)
+2023-01-20 17:47:40.355 ERROR 14948 --- [scheduling-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][scheduling-1] Exception processing template "no": Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at com.code.EmailService.email.EmailServiceImpl.sendSimpleMessage(EmailServiceImpl.java:40) ~[classes/:na]
+	at com.code.EmailService.batch.processor.EmailProcessor.process(EmailProcessor.java:26) ~[classes/:na]
+	at com.code.EmailService.batch.processor.EmailProcessor.process(EmailProcessor.java:1) ~[classes/:na]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.doProcess(SimpleChunkProcessor.java:134) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.transform(SimpleChunkProcessor.java:319) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.process(SimpleChunkProcessor.java:210) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.ChunkOrientedTasklet.execute(ChunkOrientedTasklet.java:77) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:407) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:331) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$2.doInChunkContext(TaskletStep.java:273) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.scope.context.StepContextRepeatCallback.doInIteration(StepContextRepeatCallback.java:82) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:375) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:215) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:145) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:258) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:208) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:152) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.AbstractJob.handleStep(AbstractJob.java:413) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.SimpleJob.doExecute(SimpleJob.java:136) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:320) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:149) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:140) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.13.jar:5.3.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy89.run(Unknown Source) ~[na:na]
+	at com.code.EmailService.batch.config.JobScheduler.jobScheduler(JobScheduler.java:41) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95) ~[spring-context-5.3.13.jar:5.3.13]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-01-20 17:47:40.357  INFO 14948 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : error: Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+2023-01-20 17:47:40.359  INFO 14948 --- [scheduling-1] c.c.E.batch.writer.EmailWriter           : item writer: EmailTask(ID=1, CREATED=2023-01-19, CREATED_BY=Lakhan, STATUS=0, Email_SENT_TIMESTAMP=2023-01-19, EMAIL_ERROR_IF_ANY=no, EMAIL_CONTENT=EmailText.html, Customer_MailID=Lakhan.sharma81@gmail.com)
+2023-01-20 17:48:00.504  INFO 14948 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : processor: EmailTask(ID=1, CREATED=2023-01-19, CREATED_BY=Lakhan, STATUS=0, Email_SENT_TIMESTAMP=2023-01-19, EMAIL_ERROR_IF_ANY=no, EMAIL_CONTENT=EmailText.html, Customer_MailID=Lakhan.sharma81@gmail.com)
+2023-01-20 17:48:00.506 ERROR 14948 --- [scheduling-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][scheduling-1] Exception processing template "no": Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at com.code.EmailService.email.EmailServiceImpl.sendSimpleMessage(EmailServiceImpl.java:40) ~[classes/:na]
+	at com.code.EmailService.batch.processor.EmailProcessor.process(EmailProcessor.java:26) ~[classes/:na]
+	at com.code.EmailService.batch.processor.EmailProcessor.process(EmailProcessor.java:1) ~[classes/:na]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.doProcess(SimpleChunkProcessor.java:134) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.transform(SimpleChunkProcessor.java:319) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.process(SimpleChunkProcessor.java:210) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.ChunkOrientedTasklet.execute(ChunkOrientedTasklet.java:77) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:407) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:331) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$2.doInChunkContext(TaskletStep.java:273) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.scope.context.StepContextRepeatCallback.doInIteration(StepContextRepeatCallback.java:82) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:375) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:215) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:145) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:258) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:208) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:152) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.AbstractJob.handleStep(AbstractJob.java:413) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.SimpleJob.doExecute(SimpleJob.java:136) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:320) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:149) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:140) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.13.jar:5.3.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy89.run(Unknown Source) ~[na:na]
+	at com.code.EmailService.batch.config.JobScheduler.jobScheduler(JobScheduler.java:41) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95) ~[spring-context-5.3.13.jar:5.3.13]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-01-20 17:48:00.507  INFO 14948 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : error: Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+2023-01-20 17:48:00.507  INFO 14948 --- [scheduling-1] c.c.E.batch.writer.EmailWriter           : item writer: EmailTask(ID=1, CREATED=2023-01-19, CREATED_BY=Lakhan, STATUS=0, Email_SENT_TIMESTAMP=2023-01-19, EMAIL_ERROR_IF_ANY=no, EMAIL_CONTENT=EmailText.html, Customer_MailID=Lakhan.sharma81@gmail.com)
+2023-01-20 17:48:20.346  INFO 14948 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : processor: EmailTask(ID=1, CREATED=2023-01-19, CREATED_BY=Lakhan, STATUS=0, Email_SENT_TIMESTAMP=2023-01-19, EMAIL_ERROR_IF_ANY=no, EMAIL_CONTENT=EmailText.html, Customer_MailID=Lakhan.sharma81@gmail.com)
+2023-01-20 17:48:20.349 ERROR 14948 --- [scheduling-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][scheduling-1] Exception processing template "no": Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at com.code.EmailService.email.EmailServiceImpl.sendSimpleMessage(EmailServiceImpl.java:40) ~[classes/:na]
+	at com.code.EmailService.batch.processor.EmailProcessor.process(EmailProcessor.java:26) ~[classes/:na]
+	at com.code.EmailService.batch.processor.EmailProcessor.process(EmailProcessor.java:1) ~[classes/:na]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.doProcess(SimpleChunkProcessor.java:134) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.transform(SimpleChunkProcessor.java:319) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.process(SimpleChunkProcessor.java:210) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.ChunkOrientedTasklet.execute(ChunkOrientedTasklet.java:77) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:407) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:331) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$2.doInChunkContext(TaskletStep.java:273) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.scope.context.StepContextRepeatCallback.doInIteration(StepContextRepeatCallback.java:82) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:375) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:215) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:145) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:258) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:208) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:152) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.AbstractJob.handleStep(AbstractJob.java:413) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.SimpleJob.doExecute(SimpleJob.java:136) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:320) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:149) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:140) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.13.jar:5.3.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy89.run(Unknown Source) ~[na:na]
+	at com.code.EmailService.batch.config.JobScheduler.jobScheduler(JobScheduler.java:41) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95) ~[spring-context-5.3.13.jar:5.3.13]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-01-20 17:48:20.350  INFO 14948 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : error: Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+2023-01-20 17:48:20.351  INFO 14948 --- [scheduling-1] c.c.E.batch.writer.EmailWriter           : item writer: EmailTask(ID=1, CREATED=2023-01-19, CREATED_BY=Lakhan, STATUS=0, Email_SENT_TIMESTAMP=2023-01-19, EMAIL_ERROR_IF_ANY=no, EMAIL_CONTENT=EmailText.html, Customer_MailID=Lakhan.sharma81@gmail.com)
+2023-01-20 17:48:40.291  INFO 14948 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : processor: EmailTask(ID=1, CREATED=2023-01-19, CREATED_BY=Lakhan, STATUS=0, Email_SENT_TIMESTAMP=2023-01-19, EMAIL_ERROR_IF_ANY=no, EMAIL_CONTENT=EmailText.html, Customer_MailID=Lakhan.sharma81@gmail.com)
+2023-01-20 17:48:40.293 ERROR 14948 --- [scheduling-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][scheduling-1] Exception processing template "no": Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at com.code.EmailService.email.EmailServiceImpl.sendSimpleMessage(EmailServiceImpl.java:40) ~[classes/:na]
+	at com.code.EmailService.batch.processor.EmailProcessor.process(EmailProcessor.java:26) ~[classes/:na]
+	at com.code.EmailService.batch.processor.EmailProcessor.process(EmailProcessor.java:1) ~[classes/:na]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.doProcess(SimpleChunkProcessor.java:134) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.transform(SimpleChunkProcessor.java:319) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.process(SimpleChunkProcessor.java:210) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.ChunkOrientedTasklet.execute(ChunkOrientedTasklet.java:77) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:407) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:331) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$2.doInChunkContext(TaskletStep.java:273) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.scope.context.StepContextRepeatCallback.doInIteration(StepContextRepeatCallback.java:82) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:375) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:215) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:145) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:258) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:208) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:152) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.AbstractJob.handleStep(AbstractJob.java:413) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.SimpleJob.doExecute(SimpleJob.java:136) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:320) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:149) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:140) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.13.jar:5.3.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy89.run(Unknown Source) ~[na:na]
+	at com.code.EmailService.batch.config.JobScheduler.jobScheduler(JobScheduler.java:41) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95) ~[spring-context-5.3.13.jar:5.3.13]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-01-20 17:48:40.294  INFO 14948 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : error: Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+2023-01-20 17:48:40.295  INFO 14948 --- [scheduling-1] c.c.E.batch.writer.EmailWriter           : item writer: EmailTask(ID=1, CREATED=2023-01-19, CREATED_BY=Lakhan, STATUS=0, Email_SENT_TIMESTAMP=2023-01-19, EMAIL_ERROR_IF_ANY=no, EMAIL_CONTENT=EmailText.html, Customer_MailID=Lakhan.sharma81@gmail.com)
+2023-01-20 17:49:00.404  INFO 14948 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : processor: EmailTask(ID=1, CREATED=2023-01-19, CREATED_BY=Lakhan, STATUS=0, Email_SENT_TIMESTAMP=2023-01-19, EMAIL_ERROR_IF_ANY=no, EMAIL_CONTENT=EmailText.html, Customer_MailID=Lakhan.sharma81@gmail.com)
+2023-01-20 17:49:00.409 ERROR 14948 --- [scheduling-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][scheduling-1] Exception processing template "no": Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at com.code.EmailService.email.EmailServiceImpl.sendSimpleMessage(EmailServiceImpl.java:40) ~[classes/:na]
+	at com.code.EmailService.batch.processor.EmailProcessor.process(EmailProcessor.java:26) ~[classes/:na]
+	at com.code.EmailService.batch.processor.EmailProcessor.process(EmailProcessor.java:1) ~[classes/:na]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.doProcess(SimpleChunkProcessor.java:134) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.transform(SimpleChunkProcessor.java:319) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.process(SimpleChunkProcessor.java:210) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.ChunkOrientedTasklet.execute(ChunkOrientedTasklet.java:77) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:407) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:331) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$2.doInChunkContext(TaskletStep.java:273) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.scope.context.StepContextRepeatCallback.doInIteration(StepContextRepeatCallback.java:82) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:375) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:215) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:145) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:258) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:208) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:152) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.AbstractJob.handleStep(AbstractJob.java:413) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.SimpleJob.doExecute(SimpleJob.java:136) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:320) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:149) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:140) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.13.jar:5.3.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy89.run(Unknown Source) ~[na:na]
+	at com.code.EmailService.batch.config.JobScheduler.jobScheduler(JobScheduler.java:41) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95) ~[spring-context-5.3.13.jar:5.3.13]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-01-20 17:49:00.412  INFO 14948 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : error: Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+2023-01-20 17:49:00.413  INFO 14948 --- [scheduling-1] c.c.E.batch.writer.EmailWriter           : item writer: EmailTask(ID=1, CREATED=2023-01-19, CREATED_BY=Lakhan, STATUS=0, Email_SENT_TIMESTAMP=2023-01-19, EMAIL_ERROR_IF_ANY=no, EMAIL_CONTENT=EmailText.html, Customer_MailID=Lakhan.sharma81@gmail.com)
+2023-01-20 17:49:20.873  INFO 14948 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : processor: EmailTask(ID=1, CREATED=2023-01-19, CREATED_BY=Lakhan, STATUS=0, Email_SENT_TIMESTAMP=2023-01-19, EMAIL_ERROR_IF_ANY=no, EMAIL_CONTENT=EmailText.html, Customer_MailID=Lakhan.sharma81@gmail.com)
+2023-01-20 17:49:20.877 ERROR 14948 --- [scheduling-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][scheduling-1] Exception processing template "no": Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at com.code.EmailService.email.EmailServiceImpl.sendSimpleMessage(EmailServiceImpl.java:40) ~[classes/:na]
+	at com.code.EmailService.batch.processor.EmailProcessor.process(EmailProcessor.java:26) ~[classes/:na]
+	at com.code.EmailService.batch.processor.EmailProcessor.process(EmailProcessor.java:1) ~[classes/:na]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.doProcess(SimpleChunkProcessor.java:134) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.transform(SimpleChunkProcessor.java:319) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.process(SimpleChunkProcessor.java:210) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.ChunkOrientedTasklet.execute(ChunkOrientedTasklet.java:77) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:407) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:331) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$2.doInChunkContext(TaskletStep.java:273) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.scope.context.StepContextRepeatCallback.doInIteration(StepContextRepeatCallback.java:82) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:375) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:215) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:145) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:258) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:208) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:152) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.AbstractJob.handleStep(AbstractJob.java:413) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.SimpleJob.doExecute(SimpleJob.java:136) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:320) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:149) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:140) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.13.jar:5.3.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy89.run(Unknown Source) ~[na:na]
+	at com.code.EmailService.batch.config.JobScheduler.jobScheduler(JobScheduler.java:41) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95) ~[spring-context-5.3.13.jar:5.3.13]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-01-20 17:49:20.881  INFO 14948 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : error: Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+2023-01-20 17:49:20.882  INFO 14948 --- [scheduling-1] c.c.E.batch.writer.EmailWriter           : item writer: EmailTask(ID=1, CREATED=2023-01-19, CREATED_BY=Lakhan, STATUS=0, Email_SENT_TIMESTAMP=2023-01-19, EMAIL_ERROR_IF_ANY=no, EMAIL_CONTENT=EmailText.html, Customer_MailID=Lakhan.sharma81@gmail.com)
+2023-01-20 17:49:40.345  INFO 14948 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : processor: EmailTask(ID=1, CREATED=2023-01-19, CREATED_BY=Lakhan, STATUS=0, Email_SENT_TIMESTAMP=2023-01-19, EMAIL_ERROR_IF_ANY=no, EMAIL_CONTENT=EmailText.html, Customer_MailID=Lakhan.sharma81@gmail.com)
+2023-01-20 17:49:40.349 ERROR 14948 --- [scheduling-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][scheduling-1] Exception processing template "no": Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.12.RELEASE.jar:3.0.12.RELEASE]
+	at com.code.EmailService.email.EmailServiceImpl.sendSimpleMessage(EmailServiceImpl.java:40) ~[classes/:na]
+	at com.code.EmailService.batch.processor.EmailProcessor.process(EmailProcessor.java:26) ~[classes/:na]
+	at com.code.EmailService.batch.processor.EmailProcessor.process(EmailProcessor.java:1) ~[classes/:na]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.doProcess(SimpleChunkProcessor.java:134) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.transform(SimpleChunkProcessor.java:319) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.SimpleChunkProcessor.process(SimpleChunkProcessor.java:210) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.item.ChunkOrientedTasklet.execute(ChunkOrientedTasklet.java:77) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:407) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$ChunkTransactionCallback.doInTransaction(TaskletStep.java:331) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140) ~[spring-tx-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.step.tasklet.TaskletStep$2.doInChunkContext(TaskletStep.java:273) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.scope.context.StepContextRepeatCallback.doInIteration(StepContextRepeatCallback.java:82) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.getNextResult(RepeatTemplate.java:375) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.executeInternal(RepeatTemplate.java:215) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.repeat.support.RepeatTemplate.iterate(RepeatTemplate.java:145) ~[spring-batch-infrastructure-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.tasklet.TaskletStep.doExecute(TaskletStep.java:258) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.step.AbstractStep.execute(AbstractStep.java:208) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.SimpleStepHandler.handleStep(SimpleStepHandler.java:152) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.AbstractJob.handleStep(AbstractJob.java:413) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.SimpleJob.doExecute(SimpleJob.java:136) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.job.AbstractJob.execute(AbstractJob.java:320) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher$1.run(SimpleJobLauncher.java:149) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.core.task.SyncTaskExecutor.execute(SyncTaskExecutor.java:50) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.launch.support.SimpleJobLauncher.run(SimpleJobLauncher.java:140) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.batch.core.configuration.annotation.SimpleBatchConfiguration$PassthruAdvice.invoke(SimpleBatchConfiguration.java:128) ~[spring-batch-core-4.3.4.jar:4.3.4]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.13.jar:5.3.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.13.jar:5.3.13]
+	at jdk.proxy2/jdk.proxy2.$Proxy89.run(Unknown Source) ~[na:na]
+	at com.code.EmailService.batch.config.JobScheduler.jobScheduler(JobScheduler.java:41) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95) ~[spring-context-5.3.13.jar:5.3.13]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-01-20 17:49:40.350  INFO 14948 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : error: Error resolving template [no], template might not exist or might not be accessible by any of the configured Template Resolvers
+2023-01-20 17:49:40.351  INFO 14948 --- [scheduling-1] c.c.E.batch.writer.EmailWriter           : item writer: EmailTask(ID=1, CREATED=2023-01-19, CREATED_BY=Lakhan, STATUS=0, Email_SENT_TIMESTAMP=2023-01-19, EMAIL_ERROR_IF_ANY=no, EMAIL_CONTENT=EmailText.html, Customer_MailID=Lakhan.sharma81@gmail.com)
+2023-01-20 17:49:47.826  INFO 14948 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-20 17:49:47.834  INFO 14948 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-20 17:49:51.016  INFO 13608 --- [main] c.c.E.EmailServiceApplication            : Starting EmailServiceApplication using Java 17.0.4.1 on CSI-DEvops with PID 13608 (D:\Project\EmailService\target\classes started by Support in D:\Project\EmailService)
+2023-01-20 17:49:51.020  INFO 13608 --- [main] c.c.E.EmailServiceApplication            : No active profile set, falling back to default profiles: default
+2023-01-20 17:49:52.685  INFO 13608 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-20 17:49:52.685  INFO 13608 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-01-20 17:49:52.820  INFO 13608 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-20 17:49:52.954  INFO 13608 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-20 17:49:53.446  INFO 13608 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-20 17:49:53.794  INFO 13608 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-20 17:49:53.887  INFO 13608 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2023-01-20 17:49:54.096  INFO 13608 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-20 17:49:54.251  INFO 13608 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-01-20 17:49:55.014  INFO 13608 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-20 17:49:55.109  INFO 13608 --- [main] c.c.E.batch.config.BatchConfiguration    : select * from email_notification_task where status=0
+2023-01-20 17:49:56.198  INFO 13608 --- [main] c.c.E.EmailServiceApplication            : Started EmailServiceApplication in 5.778 seconds (JVM running for 6.873)
+2023-01-20 17:50:01.212  INFO 13608 --- [scheduling-1] c.c.E.batch.processor.EmailProcessor     : processor: EmailTask(ID=1, CREATED=2023-01-19, CREATED_BY=Lakhan, STATUS=0, Email_SENT_TIMESTAMP=2023-01-19, EMAIL_ERROR_IF_ANY=no, EMAIL_CONTENT=EmailText.html, Customer_MailID=Lakhan.sharma81@gmail.com)
+2023-01-20 17:50:01.574  INFO 13608 --- [scheduling-1] c.c.EmailService.email.EmailServiceImpl  : Sending email: Lakhan.sharma81@gmail.com with html body: Test mails to ...............
+2023-01-20 17:50:06.160  INFO 13608 --- [scheduling-1] c.c.E.batch.writer.EmailWriter           : item writer: EmailTask(ID=1, CREATED=2023-01-19, CREATED_BY=Lakhan, STATUS=1, Email_SENT_TIMESTAMP=2023-01-20, EMAIL_ERROR_IF_ANY=no, EMAIL_CONTENT=EmailText.html, Customer_MailID=Lakhan.sharma81@gmail.com)
+2023-01-20 17:55:15.509  INFO 13608 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-20 17:55:15.519  INFO 13608 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
